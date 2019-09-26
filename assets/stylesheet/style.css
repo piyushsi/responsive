@@ -142,7 +142,7 @@ nav a {
   padding-top: 160px;
   padding-bottom: 20px;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 .h2 {
   font-weight:bold;
@@ -429,9 +429,8 @@ footer {
 }
 .h1 {
   font-size: 20px;
-  width: 60%;
-  justify-content: center;
-  padding-left: 18%;
+  margin:0px;
+  padding: 0px;
   padding-top: 20px;
 
 }
@@ -487,6 +486,7 @@ h4 {
 }
 .container4 {
   flex-direction: column;
+  padding: 0px;
 }
 h5 {
   font-size: 20px;
@@ -535,7 +535,7 @@ h5 {
 }
 .p3 a {
   color: #E1F7E4;
-  margin: 5px;
+  margin: 2px;
 }
 .p3-2 {
    padding: 20px 0px 10px 0px;
@@ -547,5 +547,14 @@ h5 {
 footer {
   font-size: 10px;
   padding: 20px 0px;
+}
+.btn {
+    font-size: 15px;
+    padding: 12px 30px;
+    font-weight: bolder;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 15px 0px 5px 0px;
 }
 }
