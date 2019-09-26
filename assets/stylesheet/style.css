@@ -407,3 +407,9 @@ footer {
   color: #BFD3C4;
   padding: 40px;
 }
+@media all and (max-width:768px) {
+body {
+  width:150%;
+}
+
+}
